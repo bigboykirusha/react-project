@@ -1,14 +1,17 @@
 import React from "react";
 
-const borderStyles = "border-2 border-almost-black rounded-lg";
+const borderStyles =
+  "border-2 border-almost-black  hover:text-white hover:bg-black";
 const filledStyles =
-  "text-white bg-black rounded-lg font-bold py-4 px-6 mx-0 hover:text-almost-black hover:bg-transparent border-2 border-almost-black";
+  "text-white bg-black font-bold py-4 px-14 mx-0 hover:text-almost-black hover:bg-transparent border-2 border-almost-black";
 const Button = ({ children, hasBorder = false, isFilled = false }) => {
   return (
     <button
-      className={`px-5 py-2 text-medium-gray ${hasBorder && borderStyles} ${
-        isFilled && filledStyles
-      }`}
+      className={`rounded-2xl px-5 py-2 text-medium-gray transition-colors duration-200 ease-in ${
+        hasBorder && borderStyles
+      } ${isFilled && filledStyles} ${
+        (isFilled || hasBorder) === false && "hover:text-almost-black"
+      } `}
     >
       {children}
     </button>

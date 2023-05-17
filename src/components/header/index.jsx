@@ -11,7 +11,7 @@ import MobileMenu from "../mobile-menu";
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   return (
-    <header className="flex items-center">
+    <header className="flex items-start px-6 md:items-center ">
       <LogoIcon />
       <nav className="ml-12 hidden space-x-12 md:flex">
         <NavItem text="Feature">
