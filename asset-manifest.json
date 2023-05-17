@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-project/static/css/main.185862b0.css",
-    "main.js": "/react-project/static/js/main.50c64d97.js",
+    "main.css": "/react-project/static/css/main.2220a332.css",
+    "main.js": "/react-project/static/js/main.467a40b6.js",
     "static/media/image-hero-desktop.png": "/react-project/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/Epilogue-Regular.ttf": "/react-project/static/media/Epilogue-Regular.666614487352ae23e96b.ttf",
     "static/media/image-hero-mobile.png": "/react-project/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
@@ -19,11 +19,11 @@
     "static/media/icon-menu.svg": "/react-project/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
     "static/media/icon-arrow-down.svg": "/react-project/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
     "static/media/icon-arrow-up.svg": "/react-project/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
-    "main.185862b0.css.map": "/react-project/static/css/main.185862b0.css.map",
-    "main.50c64d97.js.map": "/react-project/static/js/main.50c64d97.js.map"
+    "main.2220a332.css.map": "/react-project/static/css/main.2220a332.css.map",
+    "main.467a40b6.js.map": "/react-project/static/js/main.467a40b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.185862b0.css",
-    "static/js/main.50c64d97.js"
+    "static/css/main.2220a332.css",
+    "static/js/main.467a40b6.js"
   ]
 }
