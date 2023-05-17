@@ -11,6 +11,10 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const clickHandler = () => {
+      isMobileMenuOpen ? document.body.style.cssText = `overflow: visible;` : document.body.style.cssText = `overflow: hidden;`
+      setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
   return (
     <header className="flex items-start pl-1 pr-6 md:items-center ">
       <Link to="/">
@@ -31,7 +35,7 @@ const Header = () => {
         <Button hasBorder={true}>Register</Button>
       </div>
       <div
-        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        onClick={() => clickHandler()}
         className="z-50 ml-auto flex cursor-pointer md:hidden"
       >
         {isMobileMenuOpen ? <MenuCloseIcon /> : <MenuIcon />}
