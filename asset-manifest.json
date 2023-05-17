@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-project/static/css/main.185862b0.css",
+    "main.js": "/react-project/static/js/main.520ba2cf.js",
+    "static/media/image-hero-desktop.png": "/react-project/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "static/media/Epilogue-Regular.ttf": "/react-project/static/media/Epilogue-Regular.666614487352ae23e96b.ttf",
+    "static/media/image-hero-mobile.png": "/react-project/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
+    "static/media/client-databiz.svg": "/react-project/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
+    "static/media/logo.svg": "/react-project/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
+    "static/media/client-maker.svg": "/react-project/static/media/client-maker.3859368b1ba7e579d814353870c9edb0.svg",
+    "static/media/client-meet.svg": "/react-project/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
+    "static/media/client-audiophile.svg": "/react-project/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
+    "index.html": "/react-project/index.html",
+    "static/media/icon-reminders.svg": "/react-project/static/media/icon-reminders.d573f5028c4469edf76a0b57065af566.svg",
+    "static/media/icon-planning.svg": "/react-project/static/media/icon-planning.7264cc64a81fa348da1d23defa87d2b5.svg",
+    "static/media/icon-calendar.svg": "/react-project/static/media/icon-calendar.238c231afbc7d43b81c625ceea0d1b37.svg",
+    "static/media/icon-todo.svg": "/react-project/static/media/icon-todo.84eeba8f3b9a1811c1ea3d7420dcfd98.svg",
+    "static/media/icon-close-menu.svg": "/react-project/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
+    "static/media/icon-menu.svg": "/react-project/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
+    "static/media/icon-arrow-down.svg": "/react-project/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
+    "static/media/icon-arrow-up.svg": "/react-project/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
+    "main.185862b0.css.map": "/react-project/static/css/main.185862b0.css.map",
+    "main.520ba2cf.js.map": "/react-project/static/js/main.520ba2cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.185862b0.css",
+    "static/js/main.520ba2cf.js"
+  ]
+}
