@@ -7,13 +7,16 @@ import NavMenu from "../nav-menu";
 import { COMPANY, FEATURES } from "./data";
 import Button from "../button";
 import MobileMenu from "../mobile-menu";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   return (
-    <header className="flex items-start px-6 md:items-center ">
-      <LogoIcon />
-      <nav className="ml-12 hidden space-x-12 md:flex">
+    <header className="flex items-start pl-1 pr-6 md:items-center ">
+      <Link to="/">
+        <LogoIcon />
+      </Link>
+      <nav className="ml-16 hidden space-x-16 md:flex">
         <NavItem text="Feature">
           <NavMenu items={FEATURES} />
         </NavItem>

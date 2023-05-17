@@ -6,8 +6,9 @@ import { ReactComponent as Audiophile } from "../../images/client-audiophile.svg
 import { ReactComponent as Meet } from "../../images/client-meet.svg";
 import { ReactComponent as Maker } from "../../images/client-maker.svg";
 import Button from "../button";
+import { Link } from "react-router-dom";
 
-const Index = () => {
+const MainSection = () => {
   return (
     <section className="mt-10 flex w-full flex-col justify-center xl:flex-row">
       <div className="relative order-2 mt-6 text-center xl:order-1 xl:mt-60 xl:w-2/4 xl:text-left">
@@ -15,8 +16,10 @@ const Index = () => {
         <p className="my-6 px-5 pb-6 text-medium-gray sm:whitespace-pre-line  xl:my-12 xl:px-0 xl:text-xl">
           {`Get your team in sync, no matter your location.\n Streamline processes, create team rituals, and\n watch productivity soar.`}
         </p>
-        <Button isFilled={true}>Learn More</Button>
-        <div className="xl:jus bottom-2 mt-16 flex flex-wrap justify-around gap-x-20 gap-y-10 sm:px-0 md:justify-around xl:absolute xl:mt-20 xl:justify-around xl:gap-x-0 xl:space-x-20">
+        <Link to="/more">
+          <Button isFilled={true}>Learn More</Button>
+        </Link>
+        <div className="xl:jus bottom-2 mt-12 flex flex-wrap justify-around gap-x-20 gap-y-10 sm:px-0 md:justify-around xl:absolute xl:mt-20 xl:justify-around xl:gap-x-0 xl:space-x-20">
           <Databiz />
           <Meet />
           <Maker />
@@ -33,4 +36,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default MainSection;
